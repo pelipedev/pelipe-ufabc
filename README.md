@@ -7,8 +7,14 @@
 **Processamento da Informação** - Professor: Ronaldo Cristiano Prati \
 Envio de atividades via **Moodle**
 
-**Fenômenos Térmicos** - Professor teoria: Pedro Galli Mercadante | Professor pratica: Vilson Tonin Zanchin \
+**Fenômenos Térmicos** - Professor teoria: Pedro Galli Mercadante | Professor prática: Vilson Tonin Zanchin \
 Envio de atividades via **Moodle** e **entrega de relatorios**
+
+**Transformações Químicas** - Professor teoria: João Henrique Ghilardi Lago | Professor prática: Diogo Librandi da Rocha \
+Método de avaliação: **Exames** (P1, P2) e Aulas de Lab
+
+**Introdução às Engenharias** - Professor: Ricardo da Silva Benedito\
+Método de avaliação: **Exame P1** e **Apresentação Final**
 
 ### ***TO-DO***
 - [ ] Adicionar grade planejada ao repositorio

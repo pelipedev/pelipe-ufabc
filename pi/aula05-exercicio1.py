@@ -1,12 +1,10 @@
-def maior(n1,n2):
-    maximo_n = float('-inf')
-    x = [n1,n2]
-    for i in x:
-        if i > maximo_n:
-            maximo_n = i
-    return(maximo_n) 
-#APAGAR PARA EXERCICIO
-num_1 = float(input(""))
-num_2 = float(input(""))
-
-print(maior(num_1,num_2))
+def verifica_primo(n):
+    d = 2
+    if (n <= 1):
+        return False
+    while(d <= n-1):
+        if (n%d == 0):
+            return False
+        d += 1
+    else:
+        return True

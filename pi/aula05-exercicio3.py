@@ -1,14 +1,19 @@
-def maior(n_array):
-    maximo_n = float('-inf')
-    for i in n_array:
-        if i > maximo_n:
-            maximo_n = i
-    return(maximo_n)
+def verifica_primo(n):
+    d = 2
+    if (n <= 1):
+        return False
+    while(d <= n - 1):
+        if (n % d == 0):
+            return False
+        d += 1
+    else:
+        return True
 
-#APAGAR PARA EXERCICIO
-user_array = []
-length = int(input("Quantos numeros ira inserir?"+'\n'))
-for n in range(length):
-    user_array.append(int(input("Insira numero:")))
-print(user_array)
-print("O maior numero de sua lista eh:",maior(user_array))
+def conta_primo(n):
+    primos = 0
+    contador = 2  
+    while (contador <= n):
+        if verifica_primo(contador):
+            primos += 1
+        contador += 1
+    return primos

@@ -1,5 +1,8 @@
-soma_parcial = 0
-def soma(n_array):
-    for i in n_array:
-        soma_parcial += i**2
-    return(soma_parcial)
+def soma_harmonico(epsilon):
+    n = 1
+    soma = 0
+    while (1/n > epsilon):
+        soma += 1/n
+        n += 1
+        
+    return soma
